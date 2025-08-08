@@ -1987,6 +1987,7 @@ export const Clusters: Readonly<Record<ClusterName, Readonly<ClusterDefinition>>
             danfossPreheatStatus: {ID: 0x404f, type: DataType.BOOLEAN, manufacturerCode: ManufacturerCode.DANFOSS_A_S},
             danfossPreheatTime: {ID: 0x4050, type: DataType.UINT32, manufacturerCode: ManufacturerCode.DANFOSS_A_S},
             danfossWindowOpenFeatureEnable: {ID: 0x4051, type: DataType.BOOLEAN, manufacturerCode: ManufacturerCode.DANFOSS_A_S},
+            danfossHeatingSystemMode: {ID: 0x4059, type: DataType.ENUM8, manufacturerCode: ManufacturerCode.DANFOSS_A_S},
             danfossRoomStatusCode: {ID: 0x4100, type: DataType.BITMAP16, manufacturerCode: ManufacturerCode.DANFOSS_A_S},
             danfossOutputStatus: {ID: 0x4110, type: DataType.ENUM8, manufacturerCode: ManufacturerCode.DANFOSS_A_S},
             danfossRoomFloorSensorMode: {ID: 0x4120, type: DataType.ENUM8, manufacturerCode: ManufacturerCode.DANFOSS_A_S},
