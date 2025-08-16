@@ -2168,6 +2168,7 @@ export const Clusters: Readonly<Record<ClusterName, Readonly<ClusterDefinition>>
             },
             getWeeklySchedule: {
                 ID: 2,
+                response: 0,
                 parameters: [
                     {name: "daystoreturn", type: DataType.UINT8},
                     {name: "modetoreturn", type: DataType.UINT8},
@@ -2179,6 +2180,7 @@ export const Clusters: Readonly<Record<ClusterName, Readonly<ClusterDefinition>>
             },
             getRelayStatusLog: {
                 ID: 4,
+                response: 1,
                 parameters: [],
             },
             danfossSetpointCommand: {
@@ -5435,15 +5437,6 @@ export const Clusters: Readonly<Record<ClusterName, Readonly<ClusterDefinition>>
         attributes: {
             ledIndication: {ID: 0x0002, type: DataType.UINT8},
             ledOrientation: {ID: 0x0060, type: DataType.UINT8},
-        },
-        commands: {},
-        commandsResponse: {},
-    },
-    sprutDevice: {
-        ID: 26112,
-        manufacturerCode: 26214,
-        attributes: {
-            debug: {ID: 0, type: DataType.BOOLEAN},
         },
         commands: {},
         commandsResponse: {},
